@@ -1,0 +1,57 @@
+<?php
+
+return array(
+    'label' => array (
+        'orderline' => array(
+            'original_quantity' => 'כמות מקורית',
+            'quantity_new' => 'כמות בפועל',
+        ),
+        'deliverys' => array(
+            'name' => 'מספר תעודת משלוח',
+        ),
+         'elmor'=>array(
+            'name'=>'שם לקוח',
+            'work_details_comment'=>'פירוט עבודה',
+             'number'=>'מספר הזמנה/חוזה',
+             'building'=>'מתקן/מבנה',
+             'customer_representative'=>'נציג הלקוח',
+              'add_worker'=>'הוסף עובד ',
+                'worker_name'=>'שם העובד',
+             'profession'=> 'מקצוע',
+             'type'=>'סוג',
+             'contracting'=>'קבלנות',
+            'ragy'=>' רג\'י',
+             'work_hours'=>'שעות עבודה ',
+             'work_details'=>'פירוט העבודה(ציוד מס\' שרטוט, מס\' הזמנה וכו\') ',
+             'service_order'=>'פירוט ציוד',//'הזמנת שרותים',
+             'add_service'=>'הוסף שירות',
+             'service_name'=>'שם השירות',
+             'materials' =>"חומרים מהקבלן",
+             'quantity' =>'כמות',
+             'price'=>'מחיר',
+             'customer_cell_number'=>'נייד לקוח',
+             'customer_mobile'=>'נייד',
+             "add_pic"=>"הוסף תמונה",
+             'supervisor_comment'=> 'הערות לקוח', //'הערות המפקח',
+             'write_comment'=>'הקלד הערות',
+             'supervisor_sign'=>'חתימת לקוח', //'חתימת המפקח',
+             'worker_comment'=>'הערות המבצע',
+             'worker_comment2'=>'הערות המבצע\ליקויים',
+             'contractor_sign'=>'הערות המבצע\ליקויים', //'חתימת המבצע',
+             'contractor_sign2'=>'חתימת המבצע', //'חתימת המבצע',
+             'sw_num'=>'עובד מס\' sw_num:',
+             'worker_num'=>'עובד מס\' sw_num:',
+             'so_num'=>'שרות מס\' so_num:',
+             'service_number'=>'שרות מס\' so_num:',
+             "details_worker_hours"=> "פירוט עבודה ופירוט עובדים",//"פירוט עובדים ושעות עבודתם",
+             "headLine"=> "יומן עבודה ליום %s",
+             'exportTopdf'=>'הורד PDF',
+             'previous_work_log' => 'יומני עבודה קודמים',
+             'list_previous_work_log' => 'שם לקוח',
+             'fill_work_form' => 'מילוי יומן עבודה',
+             'fill_username' => 'שם משתמש',
+             'fill_password' => 'סיסמא',
+         ),
+        
+    )
+);

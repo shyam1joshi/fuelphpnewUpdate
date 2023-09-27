@@ -1,0 +1,9 @@
+DB table
+emailstatus
+
+routes
+
+    'emailstatus' => '/emailmonitor/emailstatus/index'
+    'emailstatus/index' => '/emailmonitor/emailstatus/index'
+    'emailstatus/delete/(:num)' => '/emailmonitor/emailstatus/delete/$1'
+    'emailstatus/edit/(:num)' => '/emailmonitor/emailstatus/edit/$1'
